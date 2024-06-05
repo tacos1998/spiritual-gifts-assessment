@@ -120,7 +120,7 @@ function Quiz() {
             checked={selectedValue === 'option1'}
             onChange={() => handleRadioChange('option1')}
           ></input>
-          <label htmlFor="0">Strongly disagree</label>
+          <label htmlFor="0">Strongly Disagree</label>
           <br />
           <input
             type="radio"
@@ -131,7 +131,7 @@ function Quiz() {
             checked={selectedValue === 'option2'}
             onChange={() => handleRadioChange('option2')}
           ></input>
-          <label htmlFor="1">Somewhat disagree</label>
+          <label htmlFor="1">Somewhat Disagree</label>
           <br />
           <input
             type="radio"
@@ -142,7 +142,7 @@ function Quiz() {
             checked={selectedValue === 'option3'}
             onChange={() => handleRadioChange('option3')}
           ></input>
-          <label htmlFor="2">Neither agree nor disagree</label>
+          <label htmlFor="2">Neither Agree nor Disagree</label>
           <br />
           <input
             type="radio"
