@@ -4,11 +4,13 @@ function Quiz() {
   const [isFinished, setIsFinished] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
-  const [administrationScore, setAdministrationScore] = useState(0);
-  const [healingScore, setHealingScore] = useState(0);
-  const [musicianScore, setMusicianScore] = useState(0);
   const [selectedValue, setSelectedValue] = useState('none');
   const [error, setError] = useState(false);
+  const [giftScores, setGiftScores] = useState([
+    { gift: 'Administration', score: 0 },
+    { gift: 'Healing', score: 0 },
+    { gift: 'Musician', score: 0 }
+  ]);
 
   const handleRadioChange = (value: string) => {
     setSelectedValue(value);
@@ -69,30 +71,23 @@ function Quiz() {
     },
   ];
 
-  // let scores = {
-  //   Administration: 0,
-  //   Healing: 0,
-  //   Musician: 0,
-  // };
-
   const submitAnswer = () => {
-    // scores[questions[currentQuestion].type as keyof typeof scores] += score;
     if (selectedValue === 'none') {
       setError(true);
       return;
     }
     setError(false);
-    // console.log('you scored:' + score);
-    switch (questions[currentQuestion].type) {
-      case 'Administration':
-        setAdministrationScore(administrationScore + score);
-        break;
-      case 'Healing':
-        setHealingScore(healingScore + score);
-        break;
-      case 'Musician':
-        setMusicianScore(musicianScore + score);
+
+    let newScores = giftScores;
+    try {
+      newScores.find(item => {
+        return item.gift == questions[currentQuestion].type;
+      })!.score += score;
+    } catch (error) {
+      console.error(error);
     }
+    
+    setGiftScores(newScores);
     setScore(0);
     setSelectedValue('none');
     if (currentQuestion + 1 == questions.length) {
@@ -113,10 +108,6 @@ function Quiz() {
     }
     return (
       <>
-        {/* <Question
-          statement={questions[currentQuestion].statement}
-          onAnswer={() => submitAnswer()}
-        /> */}
         <h2>{questions[currentQuestion].statement}</h2>
         <form>
           <input
@@ -184,13 +175,19 @@ function Quiz() {
       </>
     );
   } else {
-    // sort scores?
     return (
       <>
-        <h2>Scores for each gift</h2>
-        <h3>Administration: {administrationScore}</h3>
-        <h3>Healing: {healingScore}</h3>
-        <h3>Musician: {musicianScore}</h3>
+        <h2>Your Scores:</h2>
+        {giftScores.sort((a, b) => b.score - a.score).map((item) => (
+          <h3>{item.gift}: {item.score}</h3>
+        ))}
+        <h2>Understanding Your Scores</h2>
+        <p><strong>12-10: </strong>You are either doing this, or you should be.</p>
+        <p><strong>9-7: </strong>You could easily do this if you want to.</p>
+        <p><strong>6-4: </strong>You would have to work hard to do this gracefully.</p>
+        <p><strong>3-0: </strong>You would probably not enjoy doing this.</p>
+        <br />
+        <button type="button" onClick={() => window.location.reload()}> <span>Start Over</span> </button>
       </>
     );
   }
