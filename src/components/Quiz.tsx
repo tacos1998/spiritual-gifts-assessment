@@ -1,3 +1,4 @@
+import './Quiz.css';
 import { useState } from 'react';
 
 function Quiz() {
@@ -12,8 +13,9 @@ function Quiz() {
     { gift: 'Musician', score: 0 }
   ]);
 
-  const handleRadioChange = (value: string) => {
+  const handleRadioChange = (value: string, selectedScore: number) => {
     setSelectedValue(value);
+    setScore(selectedScore);
   };
 
   const questions = [
@@ -108,7 +110,9 @@ function Quiz() {
     }
     return (
       <>
-        <h2>{questions[currentQuestion].statement}</h2>
+        <div className="container">
+          <h2 id="question">{questions[currentQuestion].statement}</h2>
+        </div>
         <form>
           <input
             type="radio"
@@ -116,55 +120,65 @@ function Quiz() {
             name="answers"
             required
             value="0"
-            onClick={() => setScore(0)}
             checked={selectedValue === 'option1'}
-            onChange={() => handleRadioChange('option1')}
+            onChange={() => handleRadioChange('option1', 0)}
           ></input>
-          <label htmlFor="0">Strongly Disagree</label>
+          <label
+            htmlFor="0"
+            onClick={() => handleRadioChange('option1', 0)}
+          >Strongly Disagree</label>
           <br />
           <input
             type="radio"
             id="html"
             name="answers"
             value="1"
-            onClick={() => setScore(1)}
             checked={selectedValue === 'option2'}
-            onChange={() => handleRadioChange('option2')}
+            onChange={() => handleRadioChange('option2', 1)}
           ></input>
-          <label htmlFor="1">Somewhat Disagree</label>
+          <label
+            htmlFor="1"
+            onClick={() => handleRadioChange('option2', 1)}
+          >Somewhat Disagree</label>
           <br />
           <input
             type="radio"
             id="html"
             name="answers"
             value="2"
-            onClick={() => setScore(2)}
             checked={selectedValue === 'option3'}
-            onChange={() => handleRadioChange('option3')}
+            onChange={() => handleRadioChange('option3', 2)}
           ></input>
-          <label htmlFor="2">Neither Agree nor Disagree</label>
+          <label
+            htmlFor="2"
+            onClick={() => handleRadioChange('option3', 2)}
+          >Neither Agree nor Disagree</label>
           <br />
           <input
             type="radio"
             id="html"
             name="answers"
             value="3"
-            onClick={() => setScore(3)}
             checked={selectedValue === 'option4'}
-            onChange={() => handleRadioChange('option4')}
+            onChange={() => handleRadioChange('option4', 3)}
           ></input>
-          <label htmlFor="3">Somewhat Agree</label>
+          <label
+            htmlFor="3"
+            onClick={() => handleRadioChange('option4', 3)}
+          >Somewhat Agree</label>
           <br />
           <input
             type="radio"
             id="html"
             name="answers"
             value="4"
-            onClick={() => setScore(4)}
             checked={selectedValue === 'option5'}
-            onChange={() => handleRadioChange('option5')}
+            onChange={() => handleRadioChange('option5', 4)}
           ></input>
-          <label htmlFor="4">Strongly Agree</label>
+          <label
+            htmlFor="4"
+            onClick={() => handleRadioChange('option5', 4)}
+          >Strongly Agree</label>
           <br />
         </form>
         <br />
