@@ -53,7 +53,7 @@ function Quiz() {
     {
       id: 2,
       statement:
-        'I look for opportunities to assist people who have trouble doing for themselves.',
+        'I look for opportunities to assist people who have trouble taking care of themselves.',
       type: 'Caregiving',
     },
     {
@@ -178,7 +178,7 @@ function Quiz() {
     {
       id: 23,
       statement:
-        'I enjoy helping with the emergency tasks around the Church.',
+        'I enjoy helping with emergency tasks around the Church.',
       type: 'Caregiving',
     },
     {
@@ -466,7 +466,7 @@ function Quiz() {
     {
       id: 71,
       statement:
-        'One of the joys of my ministry is training people to be more effecting in living out their faith.',
+        'One of the joys of my ministry is training people to live out their faith more effectively.',
       type: 'Teacher',
     },
     {
@@ -700,10 +700,13 @@ function Quiz() {
           <br />
         </form>
         <br />
-        <button id="submit" onClick={() => submitAnswer()}>Submit</button>
+        <button className="btn-blk" onClick={() => submitAnswer()}>Submit</button>
         <br />
         <br />
         {errorMsg}
+        <p>The Spiritual Gifts Assessment is meant to help you discern your spiritual gifts and how to use them.</p>
+        <p>The assessment has 92 prompts, and takes about 10-15 minutes to complete.</p>
+        <p>Your responses are anonymous, and are not stored or shared.</p>
       </>
     );
   } else {
@@ -714,11 +717,15 @@ function Quiz() {
         <p><strong>12-9: </strong>You could easily do this if you want to.</p>
         <p><strong>8-5: </strong>You would have to work hard to do this gracefully.</p>
         <p><strong>4-0: </strong>You would probably not enjoy doing this.</p>
+        <p>Your results will disappear when you refresh the page.</p>
+        <p>To save them, consider printing this page, taking screenshots, writing down your results or copying them into a note.</p>
+        <button className="btn-blk" onClick={() => window.print()}>Print your results</button>
         <h2>Your Scores:</h2>
         {giftScores.sort((a, b) => b.score - a.score).map((item) => (
           <h3>{item.gift}: {item.score}</h3>
         ))}
-        <button type="button" onClick={() => window.location.reload()}> <span>Start Over</span> </button>
+        <br />
+        {/* <button type="button" onClick={() => window.location.reload()}> <span>Start Over</span> </button> */}
       </>
     );
   }
