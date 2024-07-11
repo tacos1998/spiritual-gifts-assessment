@@ -182,7 +182,7 @@ function Quiz() {
           <br />
         </form>
         <br />
-        <button onClick={() => submitAnswer()}>Submit</button>
+        <button id="submit" onClick={() => submitAnswer()}>Submit</button>
         <br />
         <br />
         {errorMsg}
