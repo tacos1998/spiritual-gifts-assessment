@@ -1,0 +1,23 @@
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
+/* BEST - JS calculated height */
+.list-group-item {
+  .card-title {
+    cursor: pointer;
+  }
+  .card-collapse {
+    overflow: hidden;
+    transition: height 0.15s ease-out;
+  }
+  h2 {margin: 0;}
+}
+
+.card-body p {
+  margin: 0;
+}

@@ -1,5 +1,6 @@
 import './Quiz.css';
 import { useState } from 'react';
+import Collapsible from './Collapsible.tsx';
 
 function Quiz() {
   const [isFinished, setIsFinished] = useState(false);
@@ -8,6 +9,13 @@ function Quiz() {
   const [selectedValue, setSelectedValue] = useState('none');
   const [error, setError] = useState(false);
   const [giftScores, setGiftScores] = useState([
+    // {
+    //   gift: 'Administration',
+    //   score: 0,
+    //   explanation: "explanation",
+    //   parish: "parish",
+    //   local: "local"
+    // },
     { gift: 'Administration', score: 0 },
     { gift: 'Apostleship', score: 0 },
     { gift: 'Caregiving', score: 0 },
@@ -718,14 +726,36 @@ function Quiz() {
         <p><strong>8-5: </strong>You would have to work hard to do this gracefully.</p>
         <p><strong>4-0: </strong>You would probably not enjoy doing this.</p>
         <p>Your results will disappear when you refresh the page.</p>
-        <p>To save them, consider printing this page, taking screenshots, writing down your results or copying them into a note.</p>
+        <p>To save them, consider printing this page, taking screenshots, writing down your results, or copying them into a note.</p>
         <button className="btn-blk" onClick={() => window.print()}>Print your results</button>
         <h2>Your Scores:</h2>
+
         {giftScores.sort((a, b) => b.score - a.score).map((item) => (
-          <h3>{item.gift}: {item.score}</h3>
+          // <h3 className="result-header">{item.gift}: {item.score}</h3>
+          <div className="content">
+            <div className="list-group list-group-flush">
+              <Collapsible title={item.gift + ": " + item.score}>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                <Collapsible title={"Test"}>
+                  <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                </Collapsible>
+              </Collapsible>
+            </div>
+          </div>
         ))}
+
         <br />
         {/* <button type="button" onClick={() => window.location.reload()}> <span>Start Over</span> </button> */}
+        {/* <div className="content">
+          <div className="list-group list-group-flush">
+            <Collapsible title="Overview">
+              <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+            </Collapsible>
+          </div>
+        </div>
+        <br />
+        <br />
+        <p>test</p> */}
       </>
     );
   }
