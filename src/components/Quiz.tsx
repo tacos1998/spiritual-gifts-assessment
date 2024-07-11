@@ -731,17 +731,17 @@ function Quiz() {
         <h2>Your Scores:</h2>
 
         {giftScores.sort((a, b) => b.score - a.score).map((item) => (
-          // <h3 className="result-header">{item.gift}: {item.score}</h3>
-          <div className="content">
-            <div className="list-group list-group-flush">
-              <Collapsible title={item.gift + ": " + item.score}>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <Collapsible title={"Test"}>
-                  <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                </Collapsible>
-              </Collapsible>
-            </div>
-          </div>
+          <h3 className="result-header">{item.gift}: {item.score}</h3>
+          // <div className="content">
+          //   <div className="list-group list-group-flush">
+          //     <Collapsible title={item.gift + ": " + item.score}>
+          //       <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+          //       <Collapsible title={"Test"}>
+          //         <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+          //       </Collapsible>
+          //     </Collapsible>
+          //   </div>
+          // </div>
         ))}
 
         <br />
