@@ -1,6 +1,6 @@
 import './Quiz.css';
 import { useState } from 'react';
-import Collapsible from './Collapsible.tsx';
+// import Collapsible from './Collapsible.tsx';
 
 function Quiz() {
   const [isFinished, setIsFinished] = useState(false);
