@@ -746,16 +746,6 @@ function Quiz() {
 
         <br />
         {/* <button type="button" onClick={() => window.location.reload()}> <span>Start Over</span> </button> */}
-        {/* <div className="content">
-          <div className="list-group list-group-flush">
-            <Collapsible title="Overview">
-              <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-            </Collapsible>
-          </div>
-        </div>
-        <br />
-        <br />
-        <p>test</p> */}
       </>
     );
   }
