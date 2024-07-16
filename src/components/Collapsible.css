@@ -21,3 +21,15 @@
 .card-body p {
   margin: 0;
 }
+
+.fa-chevron-down {
+  vertical-align: middle;
+  font-size: 18px;
+  margin-top: -3px;
+}
+
+.fa-chevron-up {
+  vertical-align: middle;
+  font-size: 18px;
+  margin-top: 2px;
+}

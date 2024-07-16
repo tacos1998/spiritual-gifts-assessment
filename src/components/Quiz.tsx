@@ -1,6 +1,6 @@
 import './Quiz.css';
 import { useState } from 'react';
-// import Collapsible from './Collapsible.tsx';
+import Collapsible from './Collapsible.tsx';
 
 function Quiz() {
   const [isFinished, setIsFinished] = useState(false);
@@ -9,36 +9,417 @@ function Quiz() {
   const [selectedValue, setSelectedValue] = useState('none');
   const [error, setError] = useState(false);
   const [giftScores, setGiftScores] = useState([
-    // {
-    //   gift: 'Administration',
-    //   score: 0,
-    //   explanation: "explanation",
-    //   parish: "parish",
-    //   local: "local"
-    // },
-    { gift: 'Administration', score: 0 },
-    { gift: 'Apostleship', score: 0 },
-    { gift: 'Caregiving', score: 0 },
-    { gift: 'Communication', score: 0 },
-    { gift: 'Craftsmanship', score: 0 },
-    { gift: 'Discernment', score: 0 },
-    { gift: 'Evangelization', score: 0 },
-    { gift: 'Encouragement', score: 0 },
-    { gift: 'Faith', score: 0 },
-    { gift: 'Generosity', score: 0 },
-    { gift: 'Healing', score: 0 },
-    { gift: 'Hospitality', score: 0 },
-    { gift: 'Intercession', score: 0 },
-    { gift: 'Knowledge', score: 0 },
-    { gift: 'Mercy', score: 0 },
-    { gift: 'Mission', score: 0 },
-    { gift: 'Musicianship', score: 0 },
-    { gift: 'Servant Leadership', score: 0 },
-    { gift: 'Trust', score: 0 },
-    { gift: 'Prophet', score: 0 },
-    { gift: 'Service', score: 0 },
-    { gift: 'Teacher', score: 0 },
-    { gift: 'Wisdom', score: 0 },
+    {
+      gift: 'Administration',
+      score: 0,
+      description: "The Holy Spirit enables some individuals to motivate, direct and inspire God’s people in such a way that they voluntarily and harmoniously work together to do the Church’s work effectively. This gift involves being able to put things together, tie up all the “loose ends” and get things done while setting a pattern for others to follow. Adeptness at financing, planning, organizing, delegating responsibilities and problem-solving can be indications of the gift of administration. Hebrews 13:7, Judges 3:10, Exodus 18:13-16",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        },
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Apostleship',
+      score: 0,
+      description: "To exercise the gift of apostleship is to perceive and accept God’s call to lead others in their spirituality, and to be instrumental in acknowledging God’s grace and authority in the life of the Church. This gift involves being able to lead others wisely and compassionately and training others in spiritual matters. Apostleship includes a combination of wisdom, discernment, leadership and teaching. Matthew 4:18-22, Acts 14:21-23",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Caregiving',
+      score: 0,
+      description: "The Holy Spirit empowers some persons to willingly bear the burdens of others and help them in such a way that they can do their tasks more effectively. To exercise the gift of caregiving or helping is to give assistance or relief from distress where it is needed. This gift involves a willingness to help others even when the jobs may be messy or involve getting into close proximity with people who are sick or distressed. Matthew 25:34-40, Acts 6:2-4",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Communication',
+      score: 0,
+      description: "The Holy Spirit enables some of us to communicate or to understand in forms of communication beyond the ordinary. To exercise the gift of communication be familiar with or understand a foreign language or anything (such as ASL, Braille, art, music and more) other than our own native language. Acts 2:5-11, Psalm 104:2b-35",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Craftsmanship',
+      score: 0,
+      description: "To exercise the gift of craftsmanship one must have or develop a skill, be it a hobby or a vocation and must be willing to share this ability with others either in finished products or in teaching others the skill. This gift involves any art or craft or skill, from painting to pottery, to woodwork or weaving, computer skills or photography - any art or craft that can be used to the glory of God. Exodus 28:3-4, Jeremiah 18:1-6, Exodus 35:35",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Discernment',
+      score: 0,
+      description: "The Holy Spirit enables some of us to discover the will of God. To exercise the gift of discernment is to distinguish between truth and error, to identify whether something is of God. This gift involves wisdom and prayerfulness. Proverbs 17:24, Hosea 14:8-9, Acts 5:3-6",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Evangelization',
+      score: 0,
+      description: "The Holy Spirit enables individuals to share the Gospel with others in such a way that they come to know God. To exercise the gift of evangelism is to share one’s faith within and beyond the parish. This gift involves an unabashed willingness to share the Good News and one’s personal faith journey. Acts 8:26-40, 2 Timothy 4:5",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Encouragement',
+      score: 0,
+      description: "Empowered by the Holy Spirit, some persons are called to stand beside other people who are in need and bring comfort, counsel and encouragement so they feel helped. To exercise the gift of encouragement is to call forth the best from others. This gift involves helping others to be more dedicated in living out their faith, bolstering them up when they are discouraged or downhearted and challenging them to see the goals to which God calls them. Acts 11:23-24, Acts 14:21-22",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Faith',
+      score: 0,
+      description: "The Holy Spirit provides individuals with extraordinary confidence in God’s promises, power, and presence so that they can take heroic stands for the future of God’s work in the church and faith community. This gift involves a healthy prayer life, sensitivity to the will of God and a firm trust that God will come through, even when there is no concrete evidence. Hebrews 11",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Generosity',
+      score: 0,
+      description: "The Holy Spirit enables people to offer energies, abilities and material resources for the work of the church with exceptional willingness, cheerfulness and generosity. To exercise the gift of giving one operates out of a spirit of selflessness, requiring no recognition or reward for their giving. This gift involves offering one’s time, talent and treasure. 2 Corinthians 8:1-5, Matthew 6:1-4",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Healing',
+      score: 0,
+      description: "The Holy Spirit leads some individuals to aid in restoring people who are sick. To exercise the gift of healing is to pray not necessarily for a cure but for God’s help for the sufferer, that something of good may come out of the distress. This gift involves a healthy prayer life, confidence in God’s power to provide courage in suffering, and wellness of spirit regardless of the condition of the body or mind. James 5:13-16, Luke 9:1-2 , 2 Kings 5:1-3, 9-14",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Hospitality',
+      score: 0,
+      description: "A concern for the comfort of others may be a manifestation of the gift of hospitality. This gift involves having a knack for making people at ease, enjoying being in the presence of strangers and a welcoming spirit. Hebrews 13:1-2, Genesis 18:1-8",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Intercession',
+      score: 0,
+      description: "Evidence of the gift of intercession includes having the mindset for being instantly in prayer for a person or situation, having confidence that God acts in response to our prayers, being patient and persistent in prayer even when change is not evident and having a continuing sense of responsibility to pray for people and situations. 1 Thessalonians 3:10-13, 1 Timothy 2:1-2",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Knowledge',
+      score: 0,
+      description: "One who exercises the gift of knowledge enjoys learning, probably from childhood and on into adulthood. This gift may include knowledge of facts and relationships, of scripture and of the tradition of the church and knowledge of the ways of sharing this learning gracefully. Ephesians 3:14-19, Hosea 6:6",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Mercy',
+      score: 0,
+      description: "The Holy Spirit provides some individuals with exceptional empathy and compassion for those who are weak or suffering so that they can devote large amounts of time and energy to alleviate these conditions. To exercise the gift of mercy is to relate to others in kindness and compassion. This gift involves continual readiness to forgive those who have erred, comfort the bereaved, help those who face a crisis, minister to the sick, become a peacemaker or offer assistance to those in need. Luke 10:30-37, Micah 6:8",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Mission',
+      score: 0,
+      description: "To exercise the gift of mission is to faithfully and mutually share what one has learned about God. This gift involves a willingness to be with and share with people of different heritage, customs, economic background, experience, or manner of speaking, as much a willingness to listen as to speak and an awareness that God loves all people. 1 Corinthians 9:19-23, Mark 16:15-20",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Musicianship',
+      score: 0,
+      description: "The Holy Spirit enables some to praise God through various forms of music and enhance the worship experience of the parish community. To exercise the gift of music may involve some skill in singing or in playing an instrument but may also include the ability to select appropriate music for a worship service or parish event or program. 1 Corinthians 14:26, Psalm 98:1, 4-6; Psalm 150:3-6",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Servant Leadership',
+      score: 0,
+      description: "The gift of servant leadership allows individuals to assume responsibility for the leadership and guidance of a group within the church. It includes leading, facilitating, counseling and providing a pastoral presence for various parish programs. 1 Peter 5:1-11",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Trust',
+      score: 0,
+      description: "The Holy Spirit empowers some individuals to accomplish much toward achieving God’s will in our church and community. In some versions of Scripture this gift is called the working of miracles. This gift involves a firm and faithful relationship with God, courage in the face of adversity and a willingness to trust in the power of God. John 14:11-14, Micah 3:8, Acts 1:8, 2 Timothy 1:5-7",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Prophet',
+      score: 0,
+      description: "The Holy Spirit empowers some individuals to interpret and apply God’s revelation in a given situation. This gift involves a keen sense of the dignity of all people, a sense of call, a sense of timing and some knowledge of Scripture and church teachings. 1 Corinthians 14:1-5, 1 Corinthians 14:30-33a, 1 Corinthians 14:37-40",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Service',
+      score: 0,
+      description: "To exercise the gift of service is to identify closely with the needs and problems of others, not providing answers or solutions, but being willing to work with them, no matter how small or how big the task may be. This gift involves a willingness to \“pitch in\” and do whatever is needed, no matter how detailed or tedious the task. Galatians 6:1-2, Philippians 2:3-8",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+    },
+    {
+      gift: 'Teacher',
+      score: 0,
+      description: "The Holy Spirit enables some individuals to communicate so that others can learn. To exercise the gift of teaching one effectively imparts information or proclaims precepts of our Catholic faith either orally, visually or by example. Hebrews 5:12-14, Isaiah 28:9-10",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
+    {
+      gift: 'Wisdom',
+      score: 0,
+      description: "Some individuals have an understanding of God’s will and work as it relates to the living of life. To exercise the gift of wisdom is to help others to discover the wisdom they have within them. This gift involves knowledge of God and of Scripture, discernment of God’s will, and skill in analyzing the problems and dilemmas of life. Sirach 1:14-19, James 3:13-17, Ecclesiastes 9:13-18",
+      parish: [
+        {
+          name: "name",
+          description: "descrip",
+          leader: "leader",
+          contact: "contact"
+        }
+      ],
+      local: [],
+    },
   ]);
 
   const handleRadioChange = (value: string, selectedScore: number) => {
@@ -599,6 +980,16 @@ function Quiz() {
     }
   ];
 
+  const actionReplay = () => {
+    let newScores = giftScores;
+    try {
+      newScores.map((s) => s.score = 16)
+    } catch (error) {
+      console.error(error);
+    }
+    setIsFinished(true);
+  }
+
   const submitAnswer = () => {
     if (selectedValue === 'none') {
       setError(true);
@@ -711,6 +1102,8 @@ function Quiz() {
         <button className="btn-blk" onClick={() => submitAnswer()}>Submit</button>
         <br />
         <br />
+        <button className="btn-green" onClick={() => actionReplay()}>Cheat</button>
+        <br />
         {errorMsg}
         <p>The Spiritual Gifts Assessment is meant to help you discern your spiritual gifts and how to use them.</p>
         <p>The assessment has 92 prompts, and takes about 10-15 minutes to complete.</p>
@@ -729,19 +1122,29 @@ function Quiz() {
         <p>To save them, consider printing this page, taking screenshots, writing down your results, or copying them into a note.</p>
         <button className="btn-blk" onClick={() => window.print()}>Print your results</button>
         <h2>Your Scores:</h2>
+        <h3>Click or tap each box for more information.</h3>
 
         {giftScores.sort((a, b) => b.score - a.score).map((item) => (
-          <h3 className="result-header">{item.gift}: {item.score}</h3>
-          // <div className="content">
-          //   <div className="list-group list-group-flush">
-          //     <Collapsible title={item.gift + ": " + item.score}>
-          //       <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-          //       <Collapsible title={"Test"}>
-          //         <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-          //       </Collapsible>
-          //     </Collapsible>
-          //   </div>
-          // </div>
+          // <h3 className="result-header">{item.gift}: {item.score}</h3>
+          <div className="content">
+            <div className="list-group list-group-flush">
+              <Collapsible title={item.gift + ": " + item.score}>
+                <p>{item.description}</p>
+                {item.parish.length != 0
+                  ? <Collapsible title={"Opportunities at St. Peter"}>
+                      <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    </Collapsible>
+                  : null
+                }
+                {item.local.length != 0
+                  ? <Collapsible title={"Local/Off-Campus Opportunities"}>
+                      <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    </Collapsible>
+                  : null
+                }
+              </Collapsible>
+            </div>
+          </div>
         ))}
 
         <br />

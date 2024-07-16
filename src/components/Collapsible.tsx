@@ -41,7 +41,7 @@ function Collapsible(props: CollapsibleProps) {
       className={classes}
     >
       <div onClick={handleToggle} className="card-title">
-        <h2>{props.title}</h2>
+        <h2>{props.title + " "}<i className={"fa-solid " + (!isExpanded ? "fa-chevron-down" : "fa-chevron-up")}></i></h2>
       </div>
       <div
         className="card-collapse"
