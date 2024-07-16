@@ -15,17 +15,59 @@ function Quiz() {
       description: "The Holy Spirit enables some individuals to motivate, direct and inspire God’s people in such a way that they voluntarily and harmoniously work together to do the Church’s work effectively. This gift involves being able to put things together, tie up all the “loose ends” and get things done while setting a pattern for others to follow. Adeptness at financing, planning, organizing, delegating responsibilities and problem-solving can be indications of the gift of administration. Hebrews 13:7, Judges 3:10, Exodus 18:13-16",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Lazarus Ministry",
+          description: "This ministry assists with setting up for funeral receptions to help comfort those who are mourning.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
         },
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
-        }
+          name: "Knights of Columbus Council 8910",
+          description: "The Knights of Columbus is a brotherhood of Catholic men 18 years of age and older who each play a part in improving the community. We stand together in faith, and are dedicated to upholding the principles of charity, unity, fraternity and patriotism while lending support and strength to our parish, home, community, and fellow Knights. Activities at St. Peter include planning and assisting at fundraisers, including Pancake Breakfasts and Lenten Fish Fries.",
+          leader: "Jason Heidbreder",
+          contact: "jasonheidbreder@yahoo.com, 850-581-2556"
+        },
+        {
+          name: "Parish Dinners",
+          description: "This ministry assists with planning, setting up for, and cleaning up after dinner events and parish potlucks.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Parish Office Volunteer",
+          description: "This ministry is for those who are able to serve the parish by helping out at the Office. Volunteers assist with clerical work and are trained to answer phone calls to the church.",
+          leader: "Ana Livoti-Fails",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Parish Library Volunteer",
+          description: "Library Volunteers maintain the Parish Library, process book donations, and assist parishioners with checking out physical and digital materials.",
+          leader: "Judy Holzschuh",
+          contact: "library@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Elementary Faith Formation - Catechist, Aide, Teen Aide, Catechist Substitute",
+          description: "Volunteers are needed to share their gift of faith with the children of our parish (VPK through 5th grade) during the school year. Classes meet on Sundays, from 9:15-10:15 a.m. Catechists plan and lead lessons, and are supported in the classroom by Aides and Teen Aides. In addition to these three positions, there is a need for Catechist Substitutes to fill in as needed.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Adult Faith Formation",
+          description: "Those with a passion for teaching other adults about the Catholic faith are encouraged to get involved with planning and leading our Adult Faith Formation sessions on Sundays.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Weekly Collection Counters",
+          description: "Volunteers are needed to help on Monday mornings with counting the Offertory collections from the past weekend.",
+          leader: "Paul Johansen",
+          contact: "finance@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Usher/Greeter",
+          description: "Ushers greet parishioners and open the doors for the weekend Masses. They also assist with seating, collecting the offertory, handing out bulletins and straightening up the pews after Mass. Greeters make the first experience of our parish a positive one with a warm welcome and a friendly smile. This ministry provides a link to what is happening in the parish community by being available before and after the Mass to answer questions and share current events.",
+          leader: "Tere Brenci",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
       ],
       local: [],
     },
@@ -58,6 +100,7 @@ function Quiz() {
         {
           name: "name",
           description: "descrip",
+          leader: "leader",
           contact: "contact"
         }
       ],
@@ -1129,16 +1172,34 @@ function Quiz() {
           <div className="content">
             <div className="list-group list-group-flush">
               <Collapsible title={item.gift + ": " + item.score}>
+                <br />
                 <p>{item.description}</p>
+                <br />
                 {item.parish.length != 0
                   ? <Collapsible title={"Opportunities at St. Peter"}>
-                      <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                      {item.parish.map((p) => (
+                        <div>
+                          <br />
+                          <p><strong>{p.name}</strong></p>
+                          <p>{p.description}</p>
+                          <p>{"For more info, contact " + p.leader + ": " + p.contact}</p>
+                        </div>
+                      ))}
+                      <br />
                     </Collapsible>
                   : null
                 }
                 {item.local.length != 0
                   ? <Collapsible title={"Local/Off-Campus Opportunities"}>
-                      <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                      {item.local.map((l) => (
+                        <div>
+                          <br />
+                          <p><strong>{l.name}</strong></p>
+                          <p>{l.description}</p>
+                          <p>{"For more info, contact " + l.leader + ": " + l.contact}</p>
+                        </div>
+                      ))}
+                      <br />
                     </Collapsible>
                   : null
                 }
