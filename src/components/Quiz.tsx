@@ -92,6 +92,12 @@ function Quiz() {
           leader: "Rochelle Heidbreder",
           contact: "flc@saintpeter.me, 850-581-2556"
         },
+        {
+          name: "Young Adult Ministry",
+          description: "Volunteers and leaders in this ministry help with scheduling, organizing, promoting, and running Young Adult Ministry activities and events. According to the United States Conference of Catholic Bishops, \"Young adults are persons in their late teens, twenties, and thirties who represent diverse cultural, racial, ethnic, educational, vocational, social, political, and spiritual backgrounds. They are college students, workers, and professionals; they are persons in military service; they are single, married, divorced, or widowed; they are with or without children; they are newcomers in search of a better life.\"",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
+        }
       ],
       local: [],
     },
@@ -148,6 +154,12 @@ function Quiz() {
           leader: "Rochelle Heidbreder",
           contact: "flc@saintpeter.me, 850-581-2556"
         },
+        {
+          name: "Young Adult Ministry",
+          description: "Volunteers and leaders in this ministry help with scheduling, organizing, promoting, and running Young Adult Ministry activities and events. According to the United States Conference of Catholic Bishops, \"Young adults are persons in their late teens, twenties, and thirties who represent diverse cultural, racial, ethnic, educational, vocational, social, political, and spiritual backgrounds. They are college students, workers, and professionals; they are persons in military service; they are single, married, divorced, or widowed; they are with or without children; they are newcomers in search of a better life.\"",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
+        }
       ],
       local: [
         {
@@ -409,13 +421,80 @@ function Quiz() {
       description: "The Holy Spirit enables individuals to share the Gospel with others in such a way that they come to know God. To exercise the gift of evangelism is to share one’s faith within and beyond the parish. This gift involves an unabashed willingness to share the Good News and one’s personal faith journey. Acts 8:26-40, 2 Timothy 4:5",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Elementary Faith Formation - Catechist, Aide, Teen Aide, Catechist Substitute",
+          description: "Volunteers are needed to share their gift of faith with the children of our parish (VPK through 5th grade) during the school year. Classes meet on Sundays, from 9:15-10:15 a.m. Catechists plan and lead lessons, and are supported in the classroom by Aides and Teen Aides. In addition to these three positions, there is a need for Catechist Substitutes to fill in as needed.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Adult Faith Formation",
+          description: "Those with a passion for teaching other adults about the Catholic faith are encouraged to get involved with planning and leading our Adult Faith Formation sessions on Sundays.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Middle School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our middle schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Amanda Martin",
+          contact: "amartin@okaloosapa.com, 850-581-2556"
+        },
+        {
+          name: "High School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our high schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Small Group Leader",
+          description: "Small Groups follow Jesus' example of journeying through life and towards God together with a close group of fellow Christians. Leaders are trained in how to invite members and facililtate group discussions. Meeting times, locations, frequency, and topics/resources are flexible and vary depending on who is in the group, and the parish is able to assist in many of these areas. We are always in need of Small Group Leaders, so if this interests you, please prayerfully consider whether God is calling you to lead your parish community in this way.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Young Adult Ministry",
+          description: "Volunteers and leaders in this ministry help with scheduling, organizing, promoting, and running Young Adult Ministry activities and events. According to the United States Conference of Catholic Bishops, \"Young adults are persons in their late teens, twenties, and thirties who represent diverse cultural, racial, ethnic, educational, vocational, social, political, and spiritual backgrounds. They are college students, workers, and professionals; they are persons in military service; they are single, married, divorced, or widowed; they are with or without children; they are newcomers in search of a better life.\"",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Order of Christian Initiation for Adults (OCIA) Sponsor",
+          description: "A sponsor is an active Catholic that is willing to be a companion to an OCIA student as they go through the process of becoming Catholic. Sponsors attend class with students, meet or talk with them to answer questions and walk with them on their journey of faith.",
+          leader: "Tom Lehmann",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Order of Christian Initiation for Adults (OCIA) Catechist Team",
+          description: "Those who are knowledgable in their faith and who are interested in sharing Jesus with those who are considering becoming Catholic are encouraged to join the OCIA Catechist Team. Catechists assist in planning and teaching weekly lessons.",
+          leader: "Tom Lehmann",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Extraordinary Minister of Holy Communion (EMHC)",
+          description: "Extraordinary Ministers of Holy Communion are trained to assist the priest in the distribution of Holy Communion at Mass under extraordinary circumstances, and to bring communion to the sick or aged.",
+          leader: "Father Doug Martin",
+          contact: "pastor@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Reader",
+          description: "Readers proclaim the living Word of God at Mass and lead the General Intercessions when the deacon is not present. A team of two ministers proclaim Holy Scripture at each weekend Mass, while one Reader is required for daily Mass. Qualifications for a Reader are a love of the Word of God, a pleasant speaking voice and reasonable comfort speaking before a crowd. Techniques can be learned, but a desire to proclaim the Word comes from within. Readers carefully study and practice the assigned reading prior to serving. Training is required.",
+          leader: "Deacon Tony DeCotis",
+          contact: "deacon@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "St. Paul Street Evangelization",
+          description: "St. Paul Street Evangelization is an organization that equips Catholics to evangelize at local events. Their simple, non-confrontational method involves praying with people and handing out Rosaries. Anyone in the parish is welcome to join the parish Street Team: men, women, and families can all get involved.",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
         }
       ],
-      local: [],
+      local: [
+        {
+          name: "Prison Ministry",
+          description: "This ministry answers Jesus' call to visit the imprisoned, and involves being available to talk and pray with the inmates. Volunteers undergo a background check and similar screening through the Okaloosa County Prison System.",
+          leader: "Deacon Tony DeCotis",
+          contact: "deacon@saintpeter.me, 850-581-2556"
+        }
+      ],
     },
     {
       gift: 'Encouragement',
@@ -423,18 +502,78 @@ function Quiz() {
       description: "Empowered by the Holy Spirit, some persons are called to stand beside other people who are in need and bring comfort, counsel and encouragement so they feel helped. To exercise the gift of encouragement is to call forth the best from others. This gift involves helping others to be more dedicated in living out their faith, bolstering them up when they are discouraged or downhearted and challenging them to see the goals to which God calls them. Acts 11:23-24, Acts 14:21-22",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Elementary Faith Formation - Catechist, Aide, Teen Aide, Catechist Substitute",
+          description: "Volunteers are needed to share their gift of faith with the children of our parish (VPK through 5th grade) during the school year. Classes meet on Sundays, from 9:15-10:15 a.m. Catechists plan and lead lessons, and are supported in the classroom by Aides and Teen Aides. In addition to these three positions, there is a need for Catechist Substitutes to fill in as needed.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Small Group Leader",
+          description: "Small Groups follow Jesus' example of journeying through life and towards God together with a close group of fellow Christians. Leaders are trained in how to invite members and facililtate group discussions. Meeting times, locations, frequency, and topics/resources are flexible and vary depending on who is in the group, and the parish is able to assist in many of these areas. We are always in need of Small Group Leaders, so if this interests you, please prayerfully consider whether God is calling you to lead your parish community in this way.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Young Adult Ministry",
+          description: "Volunteers and leaders in this ministry help with scheduling, organizing, promoting, and running Young Adult Ministry activities and events. According to the United States Conference of Catholic Bishops, \"Young adults are persons in their late teens, twenties, and thirties who represent diverse cultural, racial, ethnic, educational, vocational, social, political, and spiritual backgrounds. They are college students, workers, and professionals; they are persons in military service; they are single, married, divorced, or widowed; they are with or without children; they are newcomers in search of a better life.\"",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Middle School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our middle schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Amanda Martin",
+          contact: "amartin@okaloosapa.com, 850-581-2556"
+        },
+        {
+          name: "High School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our high schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Extraordinary Minister of Holy Communion (EMHC)",
+          description: "Extraordinary Ministers of Holy Communion are trained to assist the priest in the distribution of Holy Communion at Mass under extraordinary circumstances, and to bring communion to the sick or aged.",
+          leader: "Father Doug Martin",
+          contact: "pastor@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Outreach to Parish Homebound/Elderly",
+          description: "This ministry is for those who to assist, talk with, and pray with the homebound and elderly in our parish.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Nursery/Childcare Volunteer",
+          description: "We are always in need of volunteers to help in the Nursery on Sundays, and to help with Childcare for various parish events. Volunteers undergo a Diocesan background check and video training.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
         }
       ],
       local: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Fort Walton Beach Center for Women",
+          description: "The Fort Walton Beach Center for Women provides free and confidential services and information to pregnant women in Okaloosa County, and has various volunteer opportunities available for those who desire to share in this mission. Clients are served without regard to age, race, income, nationality, religious affiliation, disability or other arbitrary circumstances.",
+          leader: "the Fort Walton Beach Center for Women",
+          contact: "850-862-9020 between 9am and 12pm on Mondays and Wednesdays"
+        },
+        {
+          name: "Pregnancy Resource Center of Navarre",
+          description: "The Pregnancy Resource Center of Navarre provides free and confidential services and information to pregnant women in the Emerald Coast. Clients are served without regard to age, race, income, nationality, religious affiliation, disability or other arbitrary circumstances. Volunteers with skills in standard office software (Microsoft Word, Excel, etc.) are always needed to help with office work, as well as volunteers to help manage the organization's social media. Adult women (early 20s and up) with a passion for helping pregnant mothers in need are encouraged to become Client Advocates, who are trained to talk with and assist clients.",
+          leader: "the Pregnancy Resource Center of Navarre",
+          contact: "850-515-0334"
+        },
+        {
+          name: "Opportunity Place",
+          description: "Opportunity Place provides safe shelter, supportive services, and resources for the chronically homeless and for those experiencing homelessness due to a negative event or situation that occurred in their lives. Opportunity Place hosts Youth Nights every Tuesday and Thursday night from 5:30pm to 7pm, where volunteers come in and engage in activities with the children in the shelter. Friday morning volunteers are needed to answer the phone with shelter support. Volunteers fill out an application and are then added to a newsletter with information on new volunteer opportunities.",
+          leader: "Opportunity Place",
+          contact: "info@opifwb.org, 850-659-3190"
+        },
+        {
+          name: "Shelter House",
+          description: "Shelter House provides shelter, intervention and primary prevention programs to the community through education, awareness and advocating for social change. Volunteers that wish to work closely with participants or work on the 24-hour hotline are required to attend a 30-hour Core Competency Training. This is a 24-hour class (three full days) in addition to six hours of observation. Volunteers on the Rape Response Team (RRT) must complete Advocacy Core Training, which includes self-led online training, role playing and on-the-job training. For those not interested in direct service, opportunities include sorting through donations, collecting cell phones in the community, promoting and working events and fundraisers, handing out brochures and flyers, picking up donations, assisting with administrative duties, and much more. Opportunities for groups are also available. Your business, religious organization, youth group or other organization can work together for a group project.",
+          leader: "the Shelter House Volunteer Coordinator",
+          contact: "volunteer@shelterhousenwfl.org, 850-243-1201"
         }
       ],
     },
@@ -444,18 +583,78 @@ function Quiz() {
       description: "The Holy Spirit provides individuals with extraordinary confidence in God’s promises, power, and presence so that they can take heroic stands for the future of God’s work in the church and faith community. This gift involves a healthy prayer life, sensitivity to the will of God and a firm trust that God will come through, even when there is no concrete evidence. Hebrews 11",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Reader",
+          description: "Readers proclaim the living Word of God at Mass and lead the General Intercessions when the deacon is not present. A team of two ministers proclaim Holy Scripture at each weekend Mass, while one Reader is required for daily Mass. Qualifications for a Reader are a love of the Word of God, a pleasant speaking voice and reasonable comfort speaking before a crowd. Techniques can be learned, but a desire to proclaim the Word comes from within. Readers carefully study and practice the assigned reading prior to serving. Training is required.",
+          leader: "Deacon Tony DeCotis",
+          contact: "deacon@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Small Group Leader",
+          description: "Small Groups follow Jesus' example of journeying through life and towards God together with a close group of fellow Christians. Leaders are trained in how to invite members and facililtate group discussions. Meeting times, locations, frequency, and topics/resources are flexible and vary depending on who is in the group, and the parish is able to assist in many of these areas. We are always in need of Small Group Leaders, so if this interests you, please prayerfully consider whether God is calling you to lead your parish community in this way.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Elementary Faith Formation - Catechist, Aide, Teen Aide, Catechist Substitute",
+          description: "Volunteers are needed to share their gift of faith with the children of our parish (VPK through 5th grade) during the school year. Classes meet on Sundays, from 9:15-10:15 a.m. Catechists plan and lead lessons, and are supported in the classroom by Aides and Teen Aides. In addition to these three positions, there is a need for Catechist Substitutes to fill in as needed.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Adult Faith Formation",
+          description: "Those with a passion for teaching other adults about the Catholic faith are encouraged to get involved with planning and leading our Adult Faith Formation sessions on Sundays.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Vacation Bible School (VBS) Volunteer",
+          description: "Volunteers are needed to help with our annual summer VBS program. Opportunites for service include leading and teaching the program content and activities, serving as an aide to supervise children, making decorations to transform spaces and classrooms, and/or cleanup.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Prayer Chain",
+          description: "The Prayer Chain is for those who wish to receive emails about urgent prayer needs in the parish so that they can pray for those in great need.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
         }
       ],
       local: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Fort Walton Beach Center for Women",
+          description: "The Fort Walton Beach Center for Women provides free and confidential services and information to pregnant women in Okaloosa County, and has various volunteer opportunities available for those who desire to share in this mission. Clients are served without regard to age, race, income, nationality, religious affiliation, disability or other arbitrary circumstances.",
+          leader: "the Fort Walton Beach Center for Women",
+          contact: "850-862-9020 between 9am and 12pm on Mondays and Wednesdays"
+        },
+        {
+          name: "Pregnancy Resource Center of Navarre",
+          description: "The Pregnancy Resource Center of Navarre provides free and confidential services and information to pregnant women in the Emerald Coast. Clients are served without regard to age, race, income, nationality, religious affiliation, disability or other arbitrary circumstances. Volunteers with skills in standard office software (Microsoft Word, Excel, etc.) are always needed to help with office work, as well as volunteers to help manage the organization's social media. Adult women (early 20s and up) with a passion for helping pregnant mothers in need are encouraged to become Client Advocates, who are trained to talk with and assist clients.",
+          leader: "the Pregnancy Resource Center of Navarre",
+          contact: "850-515-0334"
+        },
+        {
+          name: "Opportunity Place",
+          description: "Opportunity Place provides safe shelter, supportive services, and resources for the chronically homeless and for those experiencing homelessness due to a negative event or situation that occurred in their lives. Opportunity Place hosts Youth Nights every Tuesday and Thursday night from 5:30pm to 7pm, where volunteers come in and engage in activities with the children in the shelter. Friday morning volunteers are needed to answer the phone with shelter support. Volunteers fill out an application and are then added to a newsletter with information on new volunteer opportunities.",
+          leader: "Opportunity Place",
+          contact: "info@opifwb.org, 850-659-3190"
+        },
+        {
+          name: "Shelter House",
+          description: "Shelter House provides shelter, intervention and primary prevention programs to the community through education, awareness and advocating for social change. Volunteers that wish to work closely with participants or work on the 24-hour hotline are required to attend a 30-hour Core Competency Training. This is a 24-hour class (three full days) in addition to six hours of observation. Volunteers on the Rape Response Team (RRT) must complete Advocacy Core Training, which includes self-led online training, role playing and on-the-job training. For those not interested in direct service, opportunities include sorting through donations, collecting cell phones in the community, promoting and working events and fundraisers, handing out brochures and flyers, picking up donations, assisting with administrative duties, and much more. Opportunities for groups are also available. Your business, religious organization, youth group or other organization can work together for a group project.",
+          leader: "the Shelter House Volunteer Coordinator",
+          contact: "volunteer@shelterhousenwfl.org, 850-243-1201"
+        },
+        {
+          name: "Catholic Charities of Northwest Florida",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
+          contact: "850-244-2825"
+        },
+        {
+          name: "St. Paul Street Evangelization",
+          description: "St. Paul Street Evangelization is an organization that equips Catholics to evangelize at local events. Their simple, non-confrontational method involves praying with people and handing out Rosaries. Anyone in the parish is welcome to join the parish Street Team: men, women, and families can all get involved.",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
         }
       ],
     },
@@ -465,18 +664,144 @@ function Quiz() {
       description: "The Holy Spirit enables people to offer energies, abilities and material resources for the work of the church with exceptional willingness, cheerfulness and generosity. To exercise the gift of giving one operates out of a spirit of selflessness, requiring no recognition or reward for their giving. This gift involves offering one’s time, talent and treasure. 2 Corinthians 8:1-5, Matthew 6:1-4",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Extraordinary Minister of Holy Communion (EMHC)",
+          description: "Extraordinary Ministers of Holy Communion are trained to assist the priest in the distribution of Holy Communion at Mass under extraordinary circumstances, and to bring communion to the sick or aged.",
+          leader: "Father Doug Martin",
+          contact: "pastor@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Outreach to Parish Homebound/Elderly",
+          description: "This ministry is for those who to assist, talk with, and pray with the homebound and elderly in our parish.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Knights of Columbus Council 8910",
+          description: "The Knights of Columbus is a brotherhood of Catholic men 18 years of age and older who each play a part in improving the community. We stand together in faith, and are dedicated to upholding the principles of charity, unity, fraternity and patriotism while lending support and strength to our parish, home, community, and fellow Knights. Activities at St. Peter include planning and assisting at fundraisers, including Pancake Breakfasts and Lenten Fish Fries.",
+          leader: "Jason Heidbreder",
+          contact: "jasonheidbreder@yahoo.com, 850-581-2556"
+        },
+        {
+          name: "Order of Christian Initiation for Adults (OCIA) Sponsor",
+          description: "A sponsor is an active Catholic that is willing to be a companion to an OCIA student as they go through the process of becoming Catholic. Sponsors attend class with students, meet or talk with them to answer questions and walk with them on their journey of faith.",
+          leader: "Tom Lehmann",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Lazarus Ministry",
+          description: "This ministry assists with setting up for funeral receptions to help comfort those who are mourning.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Nursery/Childcare Volunteer",
+          description: "We are always in need of volunteers to help in the Nursery on Sundays, and to help with Childcare for various parish events. Volunteers undergo a Diocesan background check and video training.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Parish Dinners",
+          description: "This ministry assists with planning, setting up for, and cleaning up after dinner events and parish potlucks.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Youth Night Kitchen Team",
+          description: "The Youth Night Kitchen Team meets on Sunday afternoons before Youth Nights to cook dinner for the attendees.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Sacristan",
+          description: "Sacristans prepare the sanctuary for the celebration of one Mass on weekends and Holy Days of Obligation. They work quietly behind-the-scenes to ensure that liturgies run smoothly, preparing the sacred vessels needed for liturgy, and cleaning and putting away all items afterwards. They also make sure all the other liturgical ministries are covered by those scheduled, or find substitutes. Screening and training is required.",
+          leader: "Rose DeCotis",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Altar Server",
+          description: "This ministry assists in the liturgical life of the parish during weekend Masses. Serving instills a sense of responsibility to the church and also enhances a personal relationship with Jesus as our youth take part in the Mass in such an intimate way. This ministry is open to anyone who has received the Sacraments of Baptism and First Holy Communion and is able to carry out all of the duties required. You will be trained in the duties and responsibilities of the ministry and will be asked to arrive 20 minutes before Mass begins.",
+          leader: "Deacon Tony DeCotis",
+          contact: "deacon@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Coffee and Donuts Ministry",
+          description: "Volunteers are needed to help pick up donuts, brew coffee, set up tables, serve Coffee and Donuts, and clean up afterwards, which involves some work before and after one of our Sunday Masses.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Altar Linen Cleaner",
+          description: "Volunteers are needed to assist with regular cleaning, folding, and storage of Altar Linens.",
+          leader: "Rose DeCotis",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Seasonal Decorating",
+          description: "This ministry is for those who would like to help decorate the Church for different liturgical seasons and feasts (Christmas, Easter, Lent, Advent, etc.).",
+          leader: "Ana Livoti-Fails",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Vacation Bible School (VBS) Volunteer",
+          description: "Volunteers are needed to help with our annual summer VBS program. Opportunites for service include leading and teaching the program content and activities, serving as an aide to supervise children, making decorations to transform spaces and classrooms, and/or cleanup.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Grounds Beautification Ministry",
+          description: "This ministry is for those who are able to help with planting, landscaping, and similar outdoor tasks to help keep our parish ground beautiful.",
+          leader: "Alicia Graham",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Maintenance Volunteer",
+          description: "We are always looking for volunteers with experience in painting, plumbing, carpentry, and similar repair/maintenance areas to help with various projects at the church.",
+          leader: "John Fails",
+          contact: "office@saintpeter.me, 850-581-2556"
         }
       ],
       local: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Food For Thought",
+          description: "Food For Thought is the go-to organization for fighting childhood hunger in Walton and Okaloosa Counties. Opportunities are available for volunteers of all ages. Every Tuesday, volunteers can assist with packing food in Destin (908 Airport Rd, Destin, FL 32541) and Santa Rosa Beach (132 Market St, Santa Rosa Beach, FL 32459). Every Wednesday, volunteers can assist with curbside service, mornings and/or evenings. Volunteers must complete paperwork and in-person training to get started.",
+          leader: "Food For Thought",
+          contact: "volunteer@fftfl.org, 850-290-4056"
+        },
+        {
+          name: "Fort Walton Beach Center for Women",
+          description: "The Fort Walton Beach Center for Women provides free and confidential services and information to pregnant women in Okaloosa County, and has various volunteer opportunities available for those who desire to share in this mission. Clients are served without regard to age, race, income, nationality, religious affiliation, disability or other arbitrary circumstances.",
+          leader: "the Fort Walton Beach Center for Women",
+          contact: "850-862-9020 between 9am and 12pm on Mondays and Wednesdays"
+        },
+        {
+          name: "Pregnancy Resource Center of Navarre",
+          description: "The Pregnancy Resource Center of Navarre provides free and confidential services and information to pregnant women in the Emerald Coast. Clients are served without regard to age, race, income, nationality, religious affiliation, disability or other arbitrary circumstances. Volunteers with skills in standard office software (Microsoft Word, Excel, etc.) are always needed to help with office work, as well as volunteers to help manage the organization's social media. Adult women (early 20s and up) with a passion for helping pregnant mothers in need are encouraged to become Client Advocates, who are trained to talk with and assist clients.",
+          leader: "the Pregnancy Resource Center of Navarre",
+          contact: "850-515-0334"
+        },
+        {
+          name: "Opportunity Place",
+          description: "Opportunity Place provides safe shelter, supportive services, and resources for the chronically homeless and for those experiencing homelessness due to a negative event or situation that occurred in their lives. Opportunity Place hosts Youth Nights every Tuesday and Thursday night from 5:30pm to 7pm, where volunteers come in and engage in activities with the children in the shelter. Friday morning volunteers are needed to answer the phone with shelter support. Volunteers fill out an application and are then added to a newsletter with information on new volunteer opportunities.",
+          leader: "Opportunity Place",
+          contact: "info@opifwb.org, 850-659-3190"
+        },
+        {
+          name: "Shelter House",
+          description: "Shelter House provides shelter, intervention and primary prevention programs to the community through education, awareness and advocating for social change. Volunteers that wish to work closely with participants or work on the 24-hour hotline are required to attend a 30-hour Core Competency Training. This is a 24-hour class (three full days) in addition to six hours of observation. Volunteers on the Rape Response Team (RRT) must complete Advocacy Core Training, which includes self-led online training, role playing and on-the-job training. For those not interested in direct service, opportunities include sorting through donations, collecting cell phones in the community, promoting and working events and fundraisers, handing out brochures and flyers, picking up donations, assisting with administrative duties, and much more. Opportunities for groups are also available. Your business, religious organization, youth group or other organization can work together for a group project.",
+          leader: "the Shelter House Volunteer Coordinator",
+          contact: "volunteer@shelterhousenwfl.org, 850-243-1201"
+        },
+        {
+          name: "Catholic Charities of Northwest Florida",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
+          contact: "850-244-2825"
+        },
+        {
+          name: "Habitat For Humanity in Okaloosa County",
+          description: "Habitat for Humanity Okaloosa County welcomes people from all walks of life to join them as they build affordable, safe homes in partnership with families in need. There are opportunities for Construction Volunteers, ReStore Volunteers, Special Event Volunteering and Youth Volunteers.",
+          leader: "the Habitat For Humanity in Okaloosa County Volunteer Coordinator",
+          contact: "volunteer@habitatfwb.org, 850-315-0025"
         }
       ],
     },
@@ -486,20 +811,31 @@ function Quiz() {
       description: "The Holy Spirit leads some individuals to aid in restoring people who are sick. To exercise the gift of healing is to pray not necessarily for a cure but for God’s help for the sufferer, that something of good may come out of the distress. This gift involves a healthy prayer life, confidence in God’s power to provide courage in suffering, and wellness of spirit regardless of the condition of the body or mind. James 5:13-16, Luke 9:1-2 , 2 Kings 5:1-3, 9-14",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
-        }
-      ],
-      local: [
+          name: "Lazarus Ministry",
+          description: "This ministry assists with setting up for funeral receptions to help comfort those who are mourning.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Extraordinary Minister of Holy Communion (EMHC)",
+          description: "Extraordinary Ministers of Holy Communion are trained to assist the priest in the distribution of Holy Communion at Mass under extraordinary circumstances, and to bring communion to the sick or aged.",
+          leader: "Father Doug Martin",
+          contact: "pastor@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Outreach to Parish Homebound/Elderly",
+          description: "This ministry is for those who to assist, talk with, and pray with the homebound and elderly in our parish.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Prayer Chain",
+          description: "The Prayer Chain is for those who wish to receive emails about urgent prayer needs in the parish so that they can pray for those in great need.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
         }
       ],
+      local: [],
     },
     {
       gift: 'Hospitality',
@@ -507,11 +843,77 @@ function Quiz() {
       description: "A concern for the comfort of others may be a manifestation of the gift of hospitality. This gift involves having a knack for making people at ease, enjoying being in the presence of strangers and a welcoming spirit. Hebrews 13:1-2, Genesis 18:1-8",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
-        }
+          name: "Order of Christian Initiation for Adults (OCIA) Sponsor",
+          description: "A sponsor is an active Catholic that is willing to be a companion to an OCIA student as they go through the process of becoming Catholic. Sponsors attend class with students, meet or talk with them to answer questions and walk with them on their journey of faith.",
+          leader: "Tom Lehmann",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Usher/Greeter",
+          description: "Ushers greet parishioners and open the doors for the weekend Masses. They also assist with seating, collecting the offertory, handing out bulletins and straightening up the pews after Mass. Greeters make the first experience of our parish a positive one with a warm welcome and a friendly smile. This ministry provides a link to what is happening in the parish community by being available before and after the Mass to answer questions and share current events.",
+          leader: "Tere Brenci",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Youth Night Kitchen Team",
+          description: "The Youth Night Kitchen Team meets on Sunday afternoons before Youth Nights to cook dinner for the attendees.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Nursery/Childcare Volunteer",
+          description: "We are always in need of volunteers to help in the Nursery on Sundays, and to help with Childcare for various parish events. Volunteers undergo a Diocesan background check and video training.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Elementary Faith Formation - Catechist, Aide, Teen Aide, Catechist Substitute",
+          description: "Volunteers are needed to share their gift of faith with the children of our parish (VPK through 5th grade) during the school year. Classes meet on Sundays, from 9:15-10:15 a.m. Catechists plan and lead lessons, and are supported in the classroom by Aides and Teen Aides. In addition to these three positions, there is a need for Catechist Substitutes to fill in as needed.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Middle School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our middle schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Amanda Martin",
+          contact: "amartin@okaloosapa.com, 850-581-2556"
+        },
+        {
+          name: "High School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our high schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Lazarus Ministry",
+          description: "This ministry assists with setting up for funeral receptions to help comfort those who are mourning.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Parish Dinners",
+          description: "This ministry assists with planning, setting up for, and cleaning up after dinner events and parish potlucks.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Coffee and Donuts Ministry",
+          description: "Volunteers are needed to help pick up donuts, brew coffee, set up tables, serve Coffee and Donuts, and clean up afterwards, which involves some work before and after one of our Sunday Masses.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Young Adult Ministry",
+          description: "Volunteers and leaders in this ministry help with scheduling, organizing, promoting, and running Young Adult Ministry activities and events. According to the United States Conference of Catholic Bishops, \"Young adults are persons in their late teens, twenties, and thirties who represent diverse cultural, racial, ethnic, educational, vocational, social, political, and spiritual backgrounds. They are college students, workers, and professionals; they are persons in military service; they are single, married, divorced, or widowed; they are with or without children; they are newcomers in search of a better life.\"",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Small Group Leader",
+          description: "Small Groups follow Jesus' example of journeying through life and towards God together with a close group of fellow Christians. Leaders are trained in how to invite members and facililtate group discussions. Meeting times, locations, frequency, and topics/resources are flexible and vary depending on who is in the group, and the parish is able to assist in many of these areas. We are always in need of Small Group Leaders, so if this interests you, please prayerfully consider whether God is calling you to lead your parish community in this way.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
       ],
       local: [],
     },
@@ -521,18 +923,42 @@ function Quiz() {
       description: "Evidence of the gift of intercession includes having the mindset for being instantly in prayer for a person or situation, having confidence that God acts in response to our prayers, being patient and persistent in prayer even when change is not evident and having a continuing sense of responsibility to pray for people and situations. 1 Thessalonians 3:10-13, 1 Timothy 2:1-2",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Reader",
+          description: "Readers proclaim the living Word of God at Mass and lead the General Intercessions when the deacon is not present. A team of two ministers proclaim Holy Scripture at each weekend Mass, while one Reader is required for daily Mass. Qualifications for a Reader are a love of the Word of God, a pleasant speaking voice and reasonable comfort speaking before a crowd. Techniques can be learned, but a desire to proclaim the Word comes from within. Readers carefully study and practice the assigned reading prior to serving. Training is required.",
+          leader: "Deacon Tony DeCotis",
+          contact: "deacon@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Small Group Leader",
+          description: "Small Groups follow Jesus' example of journeying through life and towards God together with a close group of fellow Christians. Leaders are trained in how to invite members and facililtate group discussions. Meeting times, locations, frequency, and topics/resources are flexible and vary depending on who is in the group, and the parish is able to assist in many of these areas. We are always in need of Small Group Leaders, so if this interests you, please prayerfully consider whether God is calling you to lead your parish community in this way.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Prayer Chain",
+          description: "The Prayer Chain is for those who wish to receive emails about urgent prayer needs in the parish so that they can pray for those in great need.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Extraordinary Minister of Holy Communion (EMHC)",
+          description: "Extraordinary Ministers of Holy Communion are trained to assist the priest in the distribution of Holy Communion at Mass under extraordinary circumstances, and to bring communion to the sick or aged.",
+          leader: "Father Doug Martin",
+          contact: "pastor@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Prayer Chain",
+          description: "The Prayer Chain is for those who wish to receive emails about urgent prayer needs in the parish so that they can pray for those in great need.",
+          leader: "the Parish Office",
+          contact: "office@saintpeter.me, 850-581-2556"
         }
       ],
       local: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Prison Ministry",
+          description: "This ministry answers Jesus' call to visit the imprisoned, and involves being available to talk and pray with the inmates. Volunteers undergo a background check and similar screening through the Okaloosa County Prison System.",
+          leader: "Deacon Tony DeCotis",
+          contact: "deacon@saintpeter.me, 850-581-2556"
         }
       ],
     },
@@ -542,10 +968,52 @@ function Quiz() {
       description: "One who exercises the gift of knowledge enjoys learning, probably from childhood and on into adulthood. This gift may include knowledge of facts and relationships, of scripture and of the tradition of the church and knowledge of the ways of sharing this learning gracefully. Ephesians 3:14-19, Hosea 6:6",
       parish: [
         {
-          name: "name",
-          description: "descrip",
-          leader: "leader",
-          contact: "contact"
+          name: "Order of Christian Initiation for Adults (OCIA) Sponsor",
+          description: "A sponsor is an active Catholic that is willing to be a companion to an OCIA student as they go through the process of becoming Catholic. Sponsors attend class with students, meet or talk with them to answer questions and walk with them on their journey of faith.",
+          leader: "Tom Lehmann",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Order of Christian Initiation for Adults (OCIA) Catechist Team",
+          description: "Those who are knowledgable in their faith and who are interested in sharing Jesus with those who are considering becoming Catholic are encouraged to join the OCIA Catechist Team. Catechists assist in planning and teaching weekly lessons.",
+          leader: "Tom Lehmann",
+          contact: "office@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Elementary Faith Formation - Catechist, Aide, Teen Aide, Catechist Substitute",
+          description: "Volunteers are needed to share their gift of faith with the children of our parish (VPK through 5th grade) during the school year. Classes meet on Sundays, from 9:15-10:15 a.m. Catechists plan and lead lessons, and are supported in the classroom by Aides and Teen Aides. In addition to these three positions, there is a need for Catechist Substitutes to fill in as needed.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Adult Faith Formation",
+          description: "Those with a passion for teaching other adults about the Catholic faith are encouraged to get involved with planning and leading our Adult Faith Formation sessions on Sundays.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Small Group Leader",
+          description: "Small Groups follow Jesus' example of journeying through life and towards God together with a close group of fellow Christians. Leaders are trained in how to invite members and facililtate group discussions. Meeting times, locations, frequency, and topics/resources are flexible and vary depending on who is in the group, and the parish is able to assist in many of these areas. We are always in need of Small Group Leaders, so if this interests you, please prayerfully consider whether God is calling you to lead your parish community in this way.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Middle School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our middle schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Amanda Martin",
+          contact: "amartin@okaloosapa.com, 850-581-2556"
+        },
+        {
+          name: "High School Adult Ministry Team",
+          description: "This ministry is for those who have a gift for Youth Ministry and would like to help with teaching our high schoolers. The Team meets on Sunday afternoons to plan and teach lessons and activities for Sunday evening Youth Group.",
+          leader: "Rochelle Heidbreder",
+          contact: "flc@saintpeter.me, 850-581-2556"
+        },
+        {
+          name: "Young Adult Ministry",
+          description: "Volunteers and leaders in this ministry help with scheduling, organizing, promoting, and running Young Adult Ministry activities and events. According to the United States Conference of Catholic Bishops, \"Young adults are persons in their late teens, twenties, and thirties who represent diverse cultural, racial, ethnic, educational, vocational, social, political, and spiritual backgrounds. They are college students, workers, and professionals; they are persons in military service; they are single, married, divorced, or widowed; they are with or without children; they are newcomers in search of a better life.\"",
+          leader: "Tyler Acosta",
+          contact: "music@saintpeter.me, 850-581-2556"
         }
       ],
       local: [],
