@@ -20,6 +20,7 @@
 
 .card-body p {
   margin: 0;
+  text-align: left;
 }
 
 .fa-chevron-down {
