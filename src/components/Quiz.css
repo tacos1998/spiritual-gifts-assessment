@@ -13,3 +13,11 @@
 .btn-green {
     background-color: rgb(64, 196, 24);
 }
+
+.btn-blue {
+    background-color: rgb(13, 117, 236);
+}
+
+#skip-click-tap {
+    margin-bottom: 28px;
+}
