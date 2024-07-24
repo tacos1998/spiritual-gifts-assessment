@@ -2587,6 +2587,12 @@ function Quiz() {
       contact: "flc@saintpeter.me, 850-581-2556"
     },
     {
+      name: "St. Paul Street Evangelization",
+      description: "St. Paul Street Evangelization is an organization that equips Catholics to evangelize at local events. Their simple, non-confrontational method involves praying with people and handing out Rosaries. Anyone in the parish is welcome to join the parish Street Team: men, women, and families can all get involved.",
+      leader: "Tyler Acosta",
+      contact: "music@saintpeter.me, 850-581-2556"
+    },
+    {
       name: "Stewardship Committee",
       description: "This committee assists in communicating the parish's vision for stewardship throughout the parish, and organizes the annual Ministry Fair.",
       leader: "the Parish Office",
