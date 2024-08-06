@@ -265,7 +265,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         }
@@ -653,7 +653,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         },
@@ -824,7 +824,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         },
@@ -1118,7 +1118,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         },
@@ -1223,7 +1223,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         },
@@ -1464,7 +1464,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         },
@@ -1709,7 +1709,7 @@ function Quiz() {
         },
         {
           name: "Catholic Charities of Northwest Florida",
-          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+          description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
           leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
           contact: "850-244-2825"
         },
@@ -2645,7 +2645,7 @@ function Quiz() {
   const localOpps = [
     {
       name: "Catholic Charities of Northwest Florida",
-      description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunites are generally for adults, but families with children may also be able to assist.",
+      description: "Catholic Charities of Northwest Florida serves, empowers, and advocates for impoverished and vulnerable families and individuals of any race, religion or national origin across the Florida Panhandle. Volunteers are needed to help at the Food Pantry, which operates from 9am-12pm Mondays through Thursdays, and to help distribute lunches from 12:30-4pm, also Mondays through Thursdays. Volunteers are also needed to help in the office with administrative tasks. These opportunities are generally for adults, but families with children may also be able to assist.",
       leader: "Catholic Charities of Northwest Florida's Fort Walton Beach Office",
       contact: "850-244-2825"
     },
