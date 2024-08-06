@@ -6,16 +6,8 @@
     margin-bottom: 25px;
 }
 
-.btn-blk {
-    background-color: black;
-}
-
-.btn-green {
-    background-color: rgb(59, 174, 24);
-}
-
-.btn-blue {
-    background-color: rgb(16, 106, 210);
+.btn {
+    background-color: #6ca5af;
 }
 
 #skip-click-tap {

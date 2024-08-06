@@ -2741,10 +2741,10 @@ function Quiz() {
         <p>The Spiritual Gifts Assessment is meant to help you discern your spiritual gifts and how to use them.</p>
         <p>The assessment has 92 prompts, and takes about 10-15 minutes to complete.</p>
         <p>Your responses are anonymous, and are not stored or shared.</p>
-        <button className="btn-green" onClick={() => startQuiz()}>Start Assessment</button>
+        <button className="btn" onClick={() => startQuiz()}>Start Assessment</button>
         <br />
         <p>Alternatively, you can use the button below to view a List of Ministries and Service Opportunities.</p>
-        <button className="btn-blue" onClick={() => skipQuiz()}>View List</button>
+        <button className="btn" onClick={() => skipQuiz()}>View List</button>
       </>
     )
   } else {
@@ -2831,7 +2831,7 @@ function Quiz() {
             <br />
           </form>
           <br />
-          <button className="btn-blk" onClick={() => submitAnswer()}>Submit</button>
+          <button className="btn" onClick={() => submitAnswer()}>Submit</button>
           <br />
           <br />
           {errorMsg}
@@ -2848,7 +2848,7 @@ function Quiz() {
             <p><strong>4-0: </strong>You would probably not enjoy doing this.</p>
             <p>Your results will disappear when you refresh the page.</p>
             <p>To save them, consider printing this page, taking screenshots, writing down your results, or copying them into a note.</p>
-            <button className="btn-blk" onClick={() => window.print()}>Print your results</button>
+            <button className="btn" onClick={() => window.print()}>Print your results</button>
             <h2>Your Scores:</h2>
             <h3>Click or tap each box for more information.</h3>
             {giftScores.sort((a, b) => b.score - a.score).map((item) => (
@@ -2930,7 +2930,7 @@ function Quiz() {
               </div>
             </div>
             <br />
-            <button className="btn-blk" onClick={() => goHome()}>Go Back</button>
+            <button className="btn" onClick={() => goHome()}>Go Back</button>
             <br />
           </>
         );
